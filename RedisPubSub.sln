@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisPubSub", "RedisPubSub\RedisPubSub.csproj", "{7E1D2CF5-CD0C-4B78-BE47-04BB51EC79AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisPubSub.WinFormTest", "RedisPubSub.WinFormTest\RedisPubSub.WinFormTest.csproj", "{38E3AADB-E4C3-458D-B6B9-4CEC80CE2BC3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{9DF3EB07-ACF2-4B20-A68B-12B633B8E84B}"
+	ProjectSection(SolutionItems) = preProject
+		Lib\DQueue.Infrastructure.dll = Lib\DQueue.Infrastructure.dll
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E1D2CF5-CD0C-4B78-BE47-04BB51EC79AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E1D2CF5-CD0C-4B78-BE47-04BB51EC79AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E1D2CF5-CD0C-4B78-BE47-04BB51EC79AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E1D2CF5-CD0C-4B78-BE47-04BB51EC79AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38E3AADB-E4C3-458D-B6B9-4CEC80CE2BC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38E3AADB-E4C3-458D-B6B9-4CEC80CE2BC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38E3AADB-E4C3-458D-B6B9-4CEC80CE2BC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38E3AADB-E4C3-458D-B6B9-4CEC80CE2BC3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
